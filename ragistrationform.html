@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            registration form
+        </title>
+   <style>
+   body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:beige;
+}
+    .main {
+        width:300px;
+        padding:6px;
+    
+        border:3px solid black;
+        border-radius: 15px;
+        box-sizing: border-box
+    ;
+    box-shadow: 0px 0px 200px blue;
+    height:43vh;
+    }
+   </style> </head>
+   <body>
+    <h2>
+        Regisration Form
+    </h2>
+    
+    <div class="main">
+        <form action="index.html" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" style="width:95%"required><br>
+            <lAbel for="Father's Name">Father's Name:</lebel>
+                <input type="text" id="Father's name" Name="Father's Name"style="width:95%"required><br>
+                <label for="Mother's Name">Mother's Name:</lebel>
+                <input type="text" id="Mother's Name" Name="Mother's Name"style="width:95%"required><br>
+                <label for="DOB">Date of Birth:</lebel>
+                <input type="date" id="Date of Birth" Name="Date of Birth"style="width:95%"required>
+                <label for="Mobile No.">Mobile No.:</lebel>
+                <input type="tel" id="Mobile no." Name="Mobile No."style="width:95%"required>
+                
+            <label for="email">Email:</label><br>
+            
+            <input type="email" id="email" name="email"style="width:95%"required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"style="width:95%"required><br><br>
+            <input type="submit"
+           value="submit"
+           >
+        </form>
+   </body>
+</html>
